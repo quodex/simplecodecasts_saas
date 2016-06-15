@@ -37,4 +37,7 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  
+  #hope this works
+  config.action_mailer.delivery_method = :stmp
 end
